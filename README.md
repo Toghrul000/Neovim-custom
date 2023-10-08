@@ -1,0 +1,1 @@
+![Alt text](./nvim-snapshots/nvim_snapshot.jpg)

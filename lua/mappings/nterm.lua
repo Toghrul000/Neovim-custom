@@ -5,9 +5,9 @@ vim.api.nvim_set_keymap('n', '<leader>tv', ':botright vsp | terminal<CR>', { nor
 -- Horizontal terminal split at the bottom
 vim.api.nvim_set_keymap('n', '<leader>th', ':botright split | terminal<CR>', { noremap = true })
 
+vim.api.nvim_set_keymap('t', '<ESC>', [[<C-\><C-n>]], { noremap = true })
 
 
-
-vim.api.nvim_exec([[
-  tnoremap <C-x> <C-\><C-n>
-]], false)
+-- vim.api.nvim_exec([[
+--   tnoremap <C-x> <C-\><C-n>
+-- ]], false)
